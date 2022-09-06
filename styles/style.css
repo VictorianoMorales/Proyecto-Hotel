@@ -60,7 +60,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #212121;
+    background: rgb(33,33,33);
+    background: linear-gradient(90deg, rgba(33,33,33,1) 59%, rgba(117,117,117,1) 98%);
     font-weight: bold;
     position: fixed;
     top: 0;
@@ -71,7 +72,8 @@
 
 footer {
     grid-area: footer;
-    background-color: #212121;
+    background: rgb(33,33,33);
+    background: linear-gradient(90deg, rgba(33,33,33,1) 59%, rgba(117,117,117,1) 98%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,8 +166,8 @@ footer {
 }
 
 .main__habitaciones-texto{
-    padding: 15px;
-    background-color: grey;
+    padding: 15px;    
+    background: gray;
     width: 100%;
 }
 
@@ -199,6 +201,11 @@ footer {
     margin-inline: 20px;
     margin-top: 10px;
     box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover{
+    transform: scale(1.1);
+
 }
 
 .card__img{
