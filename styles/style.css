@@ -147,12 +147,12 @@ footer {
     padding: 5px 10px;
     color: white;
     border-radius: 5px;
+    transition: 1s;
 }
 
 .contenedor a:hover{
     color: #212121;
-    background-color: white;
-    transition: 1s;
+    background-color: white;    
 }
 /*fin main index*/
 /*main habitaciones*/
@@ -201,6 +201,7 @@ footer {
     margin-inline: 20px;
     margin-top: 10px;
     box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.2);
+    transition: 1s;
 }
 
 .card:hover{
